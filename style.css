@@ -251,6 +251,17 @@ h3 {
     object-fit: contain;
     border-radius: 18px;
     display: block;
+    animation: floatPhoto 5s ease-in-out infinite;
+}
+
+@keyframes floatPhoto {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+
+    50% {
+        transform: translateY(-8px) rotate(1deg);
+    }
 }
 
 
