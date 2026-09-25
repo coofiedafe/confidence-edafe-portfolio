@@ -245,6 +245,13 @@ h3 {
     color: var(--muted);
     font-size: 14px;
 }
+.profile-photo {
+    width: 330px;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 18px;
+    display: block;
+}
 
 
 /* =========================
