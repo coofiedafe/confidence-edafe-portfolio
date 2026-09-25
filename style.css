@@ -585,59 +585,187 @@ h3 {
 
 .bubble {
     position: absolute;
-    width: 8px;
-    height: 8px;
-    border: 1px solid rgba(73, 107, 85, 0.35);
+    width: 18px;
+    height: 18px;
+    background: rgba(238, 233, 220, 0.65);
+    border: 1px solid rgba(73, 107, 85, 0.18);
     border-radius: 50%;
-    animation: bubbleFloat 5s ease-in-out infinite;
+    animation: bubbleRise 9s linear infinite;
     pointer-events: none;
 }
 
 .bubble-1 {
-    top: 12%;
-    left: 8%;
+    left: 3%;
+    bottom: -20px;
+    animation-delay: 0s;
 }
 
 .bubble-2 {
-    top: 28%;
-    right: 5%;
-    width: 5px;
-    height: 5px;
-    animation-delay: 1s;
-}
-
-.bubble-3 {
-    top: 55%;
-    left: 2%;
-    width: 6px;
-    height: 6px;
+    left: 9%;
+    bottom: -40px;
+    width: 12px;
+    height: 12px;
     animation-delay: 2s;
 }
 
-.bubble-4 {
-    bottom: 18%;
-    right: 8%;
-    width: 7px;
-    height: 7px;
-    animation-delay: 3s;
-}
-
-.bubble-5 {
-    bottom: 5%;
-    left: 15%;
-    width: 4px;
-    height: 4px;
+.bubble-3 {
+    left: 16%;
+    bottom: -30px;
+    width: 24px;
+    height: 24px;
     animation-delay: 4s;
 }
 
-@keyframes bubbleFloat {
-    0%, 100% {
+.bubble-4 {
+    left: 23%;
+    bottom: -50px;
+    animation-delay: 1s;
+}
+
+.bubble-5 {
+    left: 30%;
+    bottom: -25px;
+    width: 14px;
+    height: 14px;
+    animation-delay: 5s;
+}
+
+.bubble-6 {
+    left: 37%;
+    bottom: -45px;
+    width: 22px;
+    height: 22px;
+    animation-delay: 3s;
+}
+
+.bubble-7 {
+    left: 44%;
+    bottom: -20px;
+    width: 13px;
+    height: 13px;
+    animation-delay: 6s;
+}
+
+.bubble-8 {
+    left: 51%;
+    bottom: -35px;
+    width: 20px;
+    height: 20px;
+    animation-delay: 2s;
+}
+
+.bubble-9 {
+    left: 58%;
+    bottom: -55px;
+    width: 15px;
+    height: 15px;
+    animation-delay: 7s;
+}
+
+.bubble-10 {
+    left: 65%;
+    bottom: -25px;
+    width: 25px;
+    height: 25px;
+    animation-delay: 4s;
+}
+
+.bubble-11 {
+    left: 72%;
+    bottom: -45px;
+    width: 12px;
+    height: 12px;
+    animation-delay: 1s;
+}
+
+.bubble-12 {
+    left: 79%;
+    bottom: -30px;
+    width: 21px;
+    height: 21px;
+    animation-delay: 5s;
+}
+
+.bubble-13 {
+    left: 86%;
+    bottom: -50px;
+    width: 14px;
+    height: 14px;
+    animation-delay: 3s;
+}
+
+.bubble-14 {
+    left: 93%;
+    bottom: -20px;
+    width: 23px;
+    height: 23px;
+    animation-delay: 6s;
+}
+
+.bubble-15 {
+    left: 12%;
+    bottom: -60px;
+    width: 16px;
+    height: 16px;
+    animation-delay: 8s;
+}
+
+.bubble-16 {
+    left: 34%;
+    bottom: -35px;
+    width: 11px;
+    height: 11px;
+    animation-delay: 7s;
+}
+
+.bubble-17 {
+    left: 56%;
+    bottom: -65px;
+    width: 19px;
+    height: 19px;
+    animation-delay: 9s;
+}
+
+.bubble-18 {
+    left: 68%;
+    bottom: -40px;
+    width: 13px;
+    height: 13px;
+    animation-delay: 5s;
+}
+
+.bubble-19 {
+    left: 82%;
+    bottom: -60px;
+    width: 17px;
+    height: 17px;
+    animation-delay: 2s;
+}
+
+.bubble-20 {
+    left: 97%;
+    bottom: -35px;
+    width: 15px;
+    height: 15px;
+    animation-delay: 8s;
+}
+
+@keyframes bubbleRise {
+    0% {
         transform: translateY(0);
-        opacity: 0.35;
+        opacity: 0;
     }
 
-    50% {
-        transform: translateY(-12px);
-        opacity: 0.7;
+    15% {
+        opacity: 0.65;
+    }
+
+    70% {
+        opacity: 0.45;
+    }
+
+    100% {
+        transform: translateY(-500px);
+        opacity: 0;
     }
 }
