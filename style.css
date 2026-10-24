@@ -313,8 +313,8 @@ h3 {
 
 .evidence-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    grid-template-columns: 1fr;
+    gap: 40px;
 }
 
 .evidence-card {
@@ -415,7 +415,7 @@ h3 {
 }
 
 .credential {
-    padding: 30px 0;
+    padding: 50px 0;
     border-bottom: 1px solid var(--border);
 
     display: flex;
