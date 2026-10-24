@@ -314,7 +314,7 @@ h3 {
 .evidence-grid {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
+    row gap: 40px;
 }
 
 .evidence-card {
@@ -416,6 +416,7 @@ h3 {
 
 .credential {
     padding: 50px 0;
+    margin-top: 20px;
     border-bottom: 1px solid var(--border);
 
     display: flex;
